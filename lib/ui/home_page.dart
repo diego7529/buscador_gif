@@ -122,9 +122,9 @@ class _HomePageState extends State<HomePage> {
                   _offset += 19;
                 });
               }),
-              child: Column(
+              child: const Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const <Widget>[
+                children: <Widget>[
                   Icon(
                     Icons.add,
                     color: Colors.black,

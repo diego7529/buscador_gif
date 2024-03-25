@@ -5,7 +5,7 @@ import 'package:share/share.dart';
 
 class GifPage extends StatelessWidget {
   final Map _gifData;
-  const GifPage(this._gifData, {Key? key}) : super(key: key);
+  const GifPage(this._gifData, {super.key});
 
   @override
   Widget build(BuildContext context) {
